@@ -1,0 +1,16 @@
+.submitDiv{
+	height: 100%;
+	width: 18%;				/* 2px margin of Searchbar, that's why it is 18%*/
+}
+.Submit{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border-color: green;
+	border-radius: 5px;
+	transition-duration: 0.3s;
+}
+.Submit:hover{
+	background-color: #4CAF50; /* Green */
+	color: white;
+}

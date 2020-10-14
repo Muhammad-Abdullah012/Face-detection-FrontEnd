@@ -1,0 +1,97 @@
+#FormContainer{
+	display: flex;
+	flex-wrap: wrap;
+  	justify-content: center;
+  	align-items: center;
+  	position: fixed;
+	width: 100%;
+	height: 96%;
+	top: 2%;
+	bottom: 2%;
+}
+
+#Register{
+	display: flex;
+	flex-wrap: wrap;
+  	justify-content: center;
+  	position: relative;
+	width: 40%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: white;
+	-webkit-box-shadow: 3px 3px 5px 5px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow:    3px 3px 5px 5px #ccc;  /* Firefox 3.5 - 3.6 */
+	box-shadow: 3px 3px 5px 5px #ccc;
+}
+#Form{
+	display: grid;
+	text-align: center;
+	position: relative;
+    width: 80%;
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#heading{
+	top: 40%;
+	left: 50%;
+	color: black;
+}
+#fName{
+	height: 40px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+#lName{
+	height: 40px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+#email{
+	height: 40px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+#password{
+	height: 40px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #C0C0C0;
+}
+#btnDiv{
+	position: relative;
+}
+#btn{
+	height: 40px;
+	border-radius: 20px;
+	width: 80%;
+	left: 10%;
+	background: linear-gradient(to right, #66ccff 0%, #9900ff 100%);
+}
+#btn:hover{
+	transition-delay: 2s;		
+	background: linear-gradient(to right, #9900ff 0% , #66ccff 100%);
+}
+
+#errorMsg{
+	color: red;
+	border: 1px;
+	border-color: red;
+	font-size: 5px;
+}
+
+#Sign{
+	color:  #3498db;
+	cursor: pointer;
+}

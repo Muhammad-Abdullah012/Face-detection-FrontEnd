@@ -1,0 +1,51 @@
+.App{
+	overflow-x: hidden;
+}
+#h1{
+	text-align: center;
+	top: 50%;
+	bottom: 50%;
+}
+.particle{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.Sign{
+	position: relative;
+	display: flex;
+	left: 90%;
+}
+.div{
+	display: grid;
+	width: 50%;
+	height: 500px;
+	position: relative;
+	left: 25%;
+	margin-top: 4%; 
+	border-style: solid;
+	border-width: 5px;
+	grid-row: 1em;
+}
+.mainDiv{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 95%;
+	background-color: yellow;
+}
+.innerDiv{
+	display: flex;
+	position: relative;
+	top: 43%;
+	height: 30px;
+	width: 70%;
+	left: 15%;
+}
+
+
+
+
