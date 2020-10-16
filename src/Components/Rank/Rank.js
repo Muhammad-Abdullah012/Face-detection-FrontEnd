@@ -5,6 +5,7 @@ const Rank = ({user}) => {
 	return(
 			<div id = 'rank'>
 				<h3>Hi {user.firstName + " " + user.lastName}, Your current rank is {user.entries}.</h3>
+				<p>Paste link of any image in below, it will detect any faces in it... Give it a try!</p>
 			</div>
 		);
 }
