@@ -27,7 +27,6 @@ class SignInForm extends Component {
 		}).then(response => response.json())
 		  .then(user => {
 		  	if(user.id){
-				console.log("user is: \n", user);
 				this.props.theUser(user);
 				this.props.Changeroute('home');	  		
 			  }
