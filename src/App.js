@@ -52,6 +52,7 @@ class App extends Component {
   }
   theUser = (user) => {
     Object.assign(this.state.user, {id: user.id,name: user.name, entries: user.entries });
+    console.log(this.state.user);
   }
   faceIndex = (faces, i,width,height) => {
     return {
