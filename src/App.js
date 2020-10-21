@@ -43,8 +43,7 @@ const initialState = {
 
 const initialUser = {
   id: '',
-  firstName: '',
-  lastName: '',
+  name: '',
   entries: 0
 }           
 class App extends Component {
@@ -53,7 +52,7 @@ class App extends Component {
     this.state = initialState;
   }
   theUser = (user) => {
-    Object.assign(this.state.user, {id: user.id,firstName: user.firstname, lastName: user.lastname, entries: user.entries });
+    Object.assign(this.state.user, {id: user.id,name: user.name, entries: user.entries });
   }
   faceIndex = (faces, i,width,height) => {
     return {
