@@ -35,8 +35,7 @@ const initialState = {
                         route: 'signin',
                         user: {
                           id: '',
-                          firstName: '',
-                          lastName: '',
+                          name: '',
                           entries: 0
                         }
                       }
